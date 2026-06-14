@@ -1,0 +1,130 @@
+{
+  "entity_name": "Tesla",
+  "screening_date": "2026-06-14T15:44:16Z",
+  "entity_risk_score": 52.17,
+  "risk_label": "Medium",
+  "risk_emoji": "🟡",
+  "aggregation_method": "diminishing",
+  "total_articles": 30,
+  "adverse_articles": 4,
+  "non_adverse_articles": 26,
+  "adverse_rate_pct": 13.3,
+  "category_breakdown": {
+    "Operational Risk": {
+      "count": 4,
+      "avg_score": 75.15,
+      "max_score": 80.18,
+      "severity": 0.6
+    }
+  },
+  "source_breakdown": {
+    "Bloomberg.com": {
+      "count": 1,
+      "avg_credibility": 1.0,
+      "avg_article_score": 80.18
+    },
+    "KING5.com": {
+      "count": 1,
+      "avg_credibility": 0.65,
+      "avg_article_score": 72.56
+    },
+    "KTLA": {
+      "count": 1,
+      "avg_credibility": 0.65,
+      "avg_article_score": 70.68
+    },
+    "Los Angeles Times": {
+      "count": 1,
+      "avg_credibility": 0.85,
+      "avg_article_score": 77.18
+    }
+  },
+  "dimension_scores": {
+    "category_severity": 24.0,
+    "llm_confidence": 21.88,
+    "source_credibility": 15.75,
+    "recency": 13.52
+  },
+  "contributing_articles": [
+    {
+      "title": "Tesla’s Robotaxi Falls Short With Long Waits and Stalled Rides - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "publication_date": "2026-06-10",
+      "article_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLTFneHBIbFZIQ3g1V3VlLXlEWkthOW1MRWFLS2dNbUNrRkp4eV9Bci02THhPTzFMMkdfVnlhOGJ1bERJMWE5SUhSSmotNDg5dXJJSkJPcV9YYUYtWnJmVlNNQTE1bzRoUnF0QkYxTnJjVXJyX01zZklBM1VOVmpIVVJSb1Y5UEJlUTJNX1RjNnRNZVlhN0JUaVlzcXhEUDBpaGVlbV9NaFk4VVVqd19XMzM2dzI5VmVC?oc=5",
+      "adverse_category": "Operational Risk",
+      "confidence_score": 0.9,
+      "article_risk_score": 80.18,
+      "score_breakdown": {
+        "category_severity": 24.0,
+        "llm_confidence": 22.5,
+        "source_credibility": 20.0,
+        "recency": 13.68
+      },
+      "reason": "Tesla's Robotaxi experienced product malfunctions, including long waits and stalled rides",
+      "detection_layer": "llm"
+    },
+    {
+      "title": "Tesla robotaxis stall as Musk’s self-driving hype hits real-world traffic - Los Angeles Times",
+      "source": "Los Angeles Times",
+      "publication_date": "2026-06-10",
+      "article_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbWt3RjZ6MjczZTM5RDFHX3J1RzZSNzRCWW9BRXNxNjRiYllHNG9Wc3BVZldzTXJIc1NGTWhqNWIzcVFpYnEzYzNTZjNxaVNaMkMxQ1JZRFlDdTFydldHMmJKaGVGMUFKU19BZDYtMEVXT0NocE9UbjJVMFV6b2JZMXlQU0RuTU5YVTFVcmxEbjZMY0d0U3V6Tk9uWTJlTzJpa245UWxOaG5yTWFBT216d3ItTnExOTNDVEZGSHU2RQ?oc=5",
+      "adverse_category": "Operational Risk",
+      "confidence_score": 0.9,
+      "article_risk_score": 77.18,
+      "score_breakdown": {
+        "category_severity": 24.0,
+        "llm_confidence": 22.5,
+        "source_credibility": 17.0,
+        "recency": 13.68
+      },
+      "reason": "Tesla robotaxis stalling",
+      "detection_layer": "llm"
+    },
+    {
+      "title": "Tesla crashes into Redmond garage after reported autopilot malfunction - KING5.com",
+      "source": "KING5.com",
+      "publication_date": "2026-06-08",
+      "article_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSEoyZFJlY2pVV3czUGtZaktEX05QZkdnSDdnUGVmNFBLSTUzSzV4YkhXX1k5TWxrRzh0WkxkTVpDbjRMSldRZHpQcEFhbGFUa3JrSC1vbk1MLXUxaGJVOFBvMUJpOURqbTFPVEg2ZDRYWk5SeXpUNGhVVGREWFJ1WkhtenFrMEVXQ3N2UDNETHJSSDVPOUJGcDJxWFlzQkNoZFNTZWRLaEx0QzU2R0V0dWtJd1JDZ0gwMkQwVDZPZUdfbUJxNS1LU2ZRWXhKZlRobVBWZlIyVUdHMmJteW9pUXZOVkgxTEE?oc=5",
+      "adverse_category": "Operational Risk",
+      "confidence_score": 0.9,
+      "article_risk_score": 72.56,
+      "score_breakdown": {
+        "category_severity": 24.0,
+        "llm_confidence": 22.5,
+        "source_credibility": 13.0,
+        "recency": 13.06
+      },
+      "reason": "Tesla autopilot malfunction resulting in a crash",
+      "detection_layer": "llm"
+    },
+    {
+      "title": "O.C. Uber customer says driver asleep in Tesla on 405 Freeway - KTLA",
+      "source": "KTLA",
+      "publication_date": "2026-06-10",
+      "article_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRXppU2hUQ2o0eGhaZ0RoMndiOW91bnFwa0t0Q3hVZzBuTWE5N25ic0RyLWNiZExpNTZTRnRFSEhiWVdHdnNNNjB5UWRndkpwNmxuR1VsdWhLdm1FQzUzYkF2VjluWHVMdG4zSUp4a3ZOc3VYSW1hTDhvUWlVT0ZqVEFNY3XSAYoBQVVfeXFMUGh2cTloeUhFZVB6ZUR4cHdtdDcxeHJza29DSWs2NVRpVnhnSjZGRHdpTWlEMF9OMXZTdk5fYk5GS3FqWE9SRVNHWjZxdGtRWktQNXE1N2FTZ29JQ0U3Q0w4MGV0VUI5MmpwU1BOanhTM2Z0MVVyZ3FnVnNxQ3p4WVc4WGw4YUpyZnlB?oc=5",
+      "adverse_category": "Operational Risk",
+      "confidence_score": 0.8,
+      "article_risk_score": 70.68,
+      "score_breakdown": {
+        "category_severity": 24.0,
+        "llm_confidence": 20.0,
+        "source_credibility": 13.0,
+        "recency": 13.68
+      },
+      "reason": "Tesla vehicle involved in safety incident with driver asleep",
+      "detection_layer": "llm"
+    }
+  ],
+  "weights_used": {
+    "category_severity": 40,
+    "llm_confidence": 25,
+    "source_credibility": 20,
+    "recency": 15
+  },
+  "thresholds_used": {
+    "Critical": 85,
+    "High": 65,
+    "Medium": 35,
+    "Low": 0
+  }
+}
