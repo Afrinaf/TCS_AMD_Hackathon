@@ -291,7 +291,8 @@ No local GPU required. All LLM inference runs on Groq's cloud hardware.
 
 ## Output Screenshot
 
-<img width="1919" height="960" alt="Screenshot 2026-06-14 223114" src="https://github.com/user-attachments/assets/c538f988-3df6-49a4-9990-ae725d85d3d6" />
+![1000200999](https://github.com/user-attachments/assets/379f8f57-bd03-4666-a93e-8476516ff0df)
+
 
 
 ---
